@@ -1,0 +1,25 @@
+<div>
+    <h3>Subject By id Search</h3>
+    <table border="1px">
+        <tr>
+            <td><input type="number" [(ngModel)]="id" placeholder="Enter Subject id"></td>
+        </tr>
+    </table>
+    <br />
+    <button (click)="getSubjectById()">Search</button>
+
+    <div ng-if="subject">
+        <table border="1px">
+
+            <tr>
+                <th>Subject Id</th>
+                <th>Subject Name</th>
+            </tr>
+            <tr>
+            <td>{{subject.subId}}</td>
+            <td>{{subject.subName}}</td>
+        </tr>
+
+        </table>
+    </div>
+</div>

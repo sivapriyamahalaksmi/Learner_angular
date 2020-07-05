@@ -1,0 +1,19 @@
+div{
+    align-content: left;
+}
+.heading{
+    align-content: center;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 25px;
+}
+
+.h2{
+    align-content: center;
+}
+

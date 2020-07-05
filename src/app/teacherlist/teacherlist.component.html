@@ -1,0 +1,20 @@
+<div>
+    <h3>Teacher List</h3>
+    <table border="1px">
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Subject Id</th>
+            <!-- <th>Subject Name</th> -->
+            
+        </tr>
+        <tr *ngFor="let teacher of teachers">
+            <td>{{teacher.teachId}}</td>
+            <td>{{teacher.teachName}}</td>
+            <td>{{(teacher.subject)}}</td>
+            <!-- <td>{{teacher.subject.subName}}</td> -->
+            
+        </tr>
+    </table>
+    </div>
+    

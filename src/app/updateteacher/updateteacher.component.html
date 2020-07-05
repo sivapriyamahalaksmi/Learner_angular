@@ -1,0 +1,14 @@
+<div>
+    <h3>Update Teacher</h3>
+    <table border="1px">
+        <tr>
+            <td><input type="number" [(ngModel)]="teacher.teachId" placeholder="Enter Teacher Id"></td>
+        </tr>
+        <tr>
+            <td><input type="text" [(ngModel)]="teacher.teachName" placeholder="Enter Teacher Name"></td>
+        </tr>
+       
+    </table>
+    <button (click)="updateTeacher()">Update</button>
+
+</div>

@@ -1,0 +1,25 @@
+<div>
+    <h3>Class By id Search</h3>
+    <table border="1px">
+        <tr>
+            <td><input type="number" [(ngModel)]="id" placeholder="Enter Class id"></td>
+        </tr>
+    </table>
+    <br />
+    <button (click)="getClassById()">Search</button>
+
+    <div ng-if="class">
+        <table border="1px">
+
+            <tr>
+                <th>Class Id</th>
+                <th>Class Name</th>
+            </tr>
+            <tr>
+            <td>{{class.classId}}</td>
+            <td>{{class.className}}</td>
+        </tr>
+
+        </table>
+    </div>
+</div>

@@ -1,0 +1,14 @@
+<div>
+    <h3>Update Subject</h3>
+    <table border="1px">
+        <tr>
+            <td><input type="number" [(ngModel)]="subject.subId" placeholder="Enter Subject Id"></td>
+        </tr>
+        <tr>
+            <td><input type="text" [(ngModel)]="subject.subName" placeholder="Enter Subject Name"></td>
+        </tr>
+       
+    </table>
+    <button (click)="updateSubject()">Update</button>
+
+</div>
